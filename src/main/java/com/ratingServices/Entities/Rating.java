@@ -11,7 +11,7 @@ import lombok.Data;
 @Data
 public class Rating {
 	
-	
+	@Id
 	@Column(name="rate_id")
 	private String  rate_id;
 	@Column(name="user_id")
